@@ -1,0 +1,18 @@
+.header{
+    height:80px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.aside{
+    width:300px;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container{
+    height: calc(100vh - 80px);
+}
+.content{
+    padding: 20px;
+}
