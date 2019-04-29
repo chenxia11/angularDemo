@@ -21,5 +21,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
         [通过服务沟通](https://stackblitz.com/edit/angular-communication-3)
 
 * Rxjs
-  
+
+   >> 操作符
+
    >> 报错后无法继续更新 需要重新订阅
+
+* build
+
+   >> [压缩配置](https://github.com/angular/angular-cli/wiki/build)

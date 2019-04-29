@@ -18,10 +18,10 @@ export class LayoutComponent implements OnInit {
 
   ngOnInit() {
     this.subscription =this.gobal.getSearchValue().subscribe( 
-      // (value:string)=>{
-      //  this.searchValue= value
-       async  (value:string)=>{
-        this.searchValue=await value
+      (value:string)=>{
+       this.searchValue= value
+      //  async  (value:string)=>{
+      //   this.searchValue=await value
     })
     this.handleRecommend()
   }

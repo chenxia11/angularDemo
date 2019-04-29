@@ -6,6 +6,7 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { Children1Component } from './demo/children1/children1.component';
 import { Children2Component } from './demo/children2/children2.component';
 import { Children3Component } from './demo/children3/children3.component';
+import { Children4Component } from './demo/children4/children4.component';
 const routes: Routes = [
   {
     path: '', component: LayoutComponent,
@@ -22,6 +23,10 @@ const routes: Routes = [
       {
         path: 'children3',
         component:Children3Component
+      },
+      {
+        path: 'children4',
+        component:Children4Component
       },
     ]
   },

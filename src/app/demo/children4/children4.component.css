@@ -1,0 +1,10 @@
+.mark-btn{
+    line-height:34px;
+    height: 34px;
+    background:rgba(207,207,207,1);
+    border-radius:17px;
+    font-size: 14px;
+    padding: 0 14px;
+    color: #fff;
+    margin-right: 10px;
+}

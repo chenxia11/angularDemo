@@ -39,5 +39,10 @@ export class GobalService {
   getSearchList(keysword) {
     return this.http.post('/articleSearch/getSearchRecommend',{keysword})
   }
-
+   /**
+   * 热词推荐
+   */
+  selectHotWorks(){
+    return this.http.post('/articleSearch/selectHotWorks')
+  }
 }

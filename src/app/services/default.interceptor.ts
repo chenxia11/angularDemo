@@ -24,7 +24,7 @@ export class DefaultInterceptor implements HttpInterceptor {
   ): Observable<HttpEvent<any>> {
     
     const token = localStorage.getItem('token');
-    // const token = 'b3381874ecf44f25a6b6cc411c369ed4_4f30fb53158045668a8c0b7992f34d61';
+    // const token = '2d027ad434e34440be5e6f35f9a2f452_4f30fb53158045668a8c0b7992f34d61';
 
     if (token) {
       request = request.clone({
