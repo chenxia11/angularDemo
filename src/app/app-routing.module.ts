@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
-
+import { AuthGuard } from './core/auth/auth.guard';
 // 组件
 import { LayoutComponent } from './components/layout/layout.component';
 import { Children1Component } from './demo/children1/children1.component';
@@ -10,6 +10,7 @@ import { Children4Component } from './demo/children4/children4.component';
 const routes: Routes = [
   {
     path: '', component: LayoutComponent,
+    // canActivate: [AuthGuard],
     children: [
       // { path: '', redirectTo: '/index', pathMatch: 'full'},
       {
